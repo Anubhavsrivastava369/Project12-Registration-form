@@ -1,0 +1,85 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family:sans-serif;    
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    height: 440px;
+    width: 450px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.group{
+    margin-bottom: 50px;
+}
+.container h1{
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.group label{
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+input{
+    font-weight: 500;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 1.5px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+input:hover{
+    color: black;
+    font-weight: 500;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 1.5px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+svg{
+    cursor: pointer;
+}
+button{
+    padding: 8px;
+    border: none;
+    background-color: #3E363F;
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+button:hover{
+    background-color: #181518;
+    
+}
